@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website built with Next.js and Tailwind CSS.",
+    "techStack": ["Next.js", "Tailwind CSS", "Vercel"],
+    "link": "https://example.com/portfolio"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Store",
+    "description": "An online store with cart, checkout, and payment integration.",
+    "techStack": ["React", "Node.js", "MongoDB"],
+    "link": "https://example.com/store"
+  },
+  {
+    "id": 3,
+    "title": "Blog Platform",
+    "description": "A multi-user blogging platform with markdown support and authentication.",
+    "techStack": ["Next.js", "Express", "PostgreSQL"],
+    "link": "https://example.com/blog"
+  }
+]
