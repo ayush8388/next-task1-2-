@@ -7,7 +7,7 @@ const index = ({projectData}) => {
       <h1 className='text-center text-4xl '>Projects</h1>
       <div>
         {projectData.map((data) => (
-            <div>
+            <div key={data.id}>
                 <h1>{data.title}</h1>
                 <p>{data.description}</p>
             </div>

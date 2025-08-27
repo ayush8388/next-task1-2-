@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 
-const index = () => {
+const ContactPage = () => {
     
     const[contactInfo, setContactInfo] = useState({name : "", email: "" , message: ""})
     const changehandler = (data) => {
@@ -31,4 +31,4 @@ const index = () => {
   )
 }
 
-export default index
+export default ContactPage
