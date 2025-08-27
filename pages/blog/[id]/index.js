@@ -6,8 +6,8 @@ const index = ({post}) => {
         return <div>no post found</div>
     }
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 px-4">
-      <div className="max-w-2xl w-full bg-white rounded-xl shadow-lg p-8 mt-10">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-slate-100">
+      <div className="max-w-2xl w-full bg-white rounded-xl shadow-lg p-8 mb-24">
         <h1 className="text-4xl font-bold mb-4 text-gray-900 text-center">{post.title}</h1>
         <p className="text-lg text-gray-700 leading-relaxed text-center">{post.content}</p>
       </div>
